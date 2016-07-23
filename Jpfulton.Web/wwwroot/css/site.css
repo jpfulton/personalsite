@@ -1,3 +1,7 @@
-﻿.navbar-brand h4 {
+﻿nav {
+    border-radius: 0 !important;
+}
+
+.navbar-brand h4 {
     color: white;
 }
