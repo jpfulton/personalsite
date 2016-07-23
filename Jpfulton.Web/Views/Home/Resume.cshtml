@@ -17,9 +17,68 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-collapse-com">
             <ul class="nav nav-bordered navbar-nav navbar-right">
-                <li><a href="@Url.Action("Resume")">Home</a></li>
+                <li><a href="@Url.Action("Index")">Home</a></li>
                 <li class="active"><a href="#">Resume</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+<div class="container-fluid"><div class="row">&nbsp;</div></div>
+
+@*<div class="block block-secondary block-bordered-lg">*@
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">Resume</div>
+                    <div class="panel-body">
+                        <div class="center-block">
+                            <span class="glyphicon glyphicon-file"></span>
+                            <a href="@Url.Content("~/Content/pdf/resume_06022016.pdf")">
+                                J. Patrick Fulton - Resume - 6-2-2016.pdf
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">Publications</div>
+                    <div class="panel-body">
+                        <div id="resume-text" class="center-block">
+                            <span class="glyphicon glyphicon-file"></span>
+                            <a href="@Url.Content("~/Content/pdf/Fulton_Strickland_Final_Version_IACIS_2009.pdf")">
+                                Fulton Strickland IACIS 2009.pdf
+                            </a>
+
+                            <h6>A WEB DEVELOPMENT FRAMEWORK FOR TEAM-BASED PROJECT COURSES</h6>
+                            <p>
+                                <strong>Abstract:</strong>
+                                The complexities of team-based web development
+                                make it challenging for student teams to deliver
+                                solutions that may be sustained over multiple
+                                semesters. A web development framework based on
+                                open source tools and Agile practices may be
+                                combined to create a standardized development
+                                environment. Use of the framework may provide
+                                students with rich system development experiences
+                                and deep knowledge of software design principles
+                                and patterns. Interactive features may be developed
+                                each semester for inclusion in an evolving web
+                                application used by nonprofit organizations.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+@*</div>*@
