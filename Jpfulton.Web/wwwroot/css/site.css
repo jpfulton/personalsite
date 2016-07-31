@@ -5,3 +5,11 @@
 .navbar-brand h4 {
     color: white;
 }
+
+dt {
+    display: inline;
+}
+
+dt dl {
+    display: inline-block;
+}
